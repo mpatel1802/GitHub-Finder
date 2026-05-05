@@ -1,41 +1,41 @@
 # 🔍 GitHub Finder
 
-A Python-based application that allows users to search for GitHub profiles and retrieve key information such as repositories, followers, and activity.
+A web-based application that allows users to search for GitHub profiles and explore their public data such as repositories, followers, and activity.
 
 ---
 
 ## 📌 Overview
 
-**GitHub Finder** is a lightweight tool that interacts with the GitHub ecosystem to fetch and display user data in a clean and structured format.
+**GitHub Finder** is a responsive web application that interacts with the GitHub API to fetch and display user information in a clean and user-friendly interface.
 
-This project demonstrates how to work with external data sources, process responses, and present meaningful information to users.
+This project demonstrates real-world front-end development skills, including API integration, asynchronous programming, and dynamic UI updates.
 
 ---
 
 ## 🚀 Features
 
-* 🔎 Search for any GitHub user by username
-* 📁 View public repositories
-* 👥 Check follower and following counts
-* 📊 Display key profile details
-* ⚡ Fast and simple terminal-based interface
-* 🧠 Clean and readable output formatting
+* 🔎 Search for GitHub users by username
+* 👤 View profile details (name, bio, avatar)
+* 📁 Browse public repositories
+* 👥 Display followers and following count
+* ⚡ Fast and responsive UI
+* 🎯 Clean and modern design
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Language:** Python
-* **Libraries:** `requests` (for API calls) *(if used — update if different)*
-* **Environment:** VS Code / Terminal
+* **Frontend:** HTML, CSS, JavaScript *(or React — update if needed)*
+* **API:** GitHub REST API
+* **Tools:** VS Code, Browser DevTools
 
 ### Concepts Used:
 
-* API handling
-* JSON data parsing
-* Functions and modular design
+* API calls (`fetch` / async-await)
+* JSON data handling
+* DOM manipulation
+* Event handling
 * Error handling
-* User input validation
 
 ---
 
@@ -44,10 +44,13 @@ This project demonstrates how to work with external data sources, process respon
 ```
 GitHub-Finder/
 │
-├── main.py            # Core application logic
-├── utils.py (optional) # Helper functions (if applicable)
-└── README.md          # Documentation
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 ```
+
+*(Adjust file names if different)*
 
 ---
 
@@ -59,59 +62,47 @@ GitHub-Finder/
 git clone https://github.com/mpatel1802/GitHub-Finder.git
 ```
 
-2. Navigate into the folder:
+2. Open the project folder:
 
 ```
 cd GitHub-Finder
 ```
 
-3. Install dependencies (if required):
+3. Run the app:
 
-```
-pip install requests
-```
-
-4. Run the program:
-
-```
-python main.py
-```
+* Open `index.html` in your browser
+  **OR**
+* Use VS Code Live Server extension
 
 ---
 
 ## 💡 Example Usage
 
-```
-Enter GitHub username: torvalds
+1. Enter a GitHub username
+2. Click search
+3. View:
 
-Name: Linus Torvalds
-Public Repos: 6
-Followers: 200000+
-Following: 0
-
-Repositories:
-- linux
-- subsurface
-- test-project
-```
+   * Profile info
+   * Repository list
+   * Followers
 
 ---
 
 ## ⚠️ Error Handling
 
-* Handles invalid usernames
+* Displays message for invalid usernames
 * Handles API request failures
-* Provides user-friendly messages
+* Prevents empty search submissions
 
 ---
 
 ## 📈 Future Improvements
 
-* 🔹 Add GUI (Tkinter / Web app)
-* 🔹 Display repository stats (stars, forks)
-* 🔹 Add search history
-* 🔹 Export results to file
-* 🔹 Add sorting/filtering options
+* 🔹 Add pagination for repositories
+* 🔹 Display repo stats (stars, forks)
+* 🔹 Add dark mode toggle
+* 🔹 Save search history
+* 🔹 Convert to full React app (if not already)
 
 ---
 
@@ -120,11 +111,11 @@ Repositories:
 This project highlights:
 
 * Real-world API integration
-* Data processing and presentation
-* Clean code structure
-* Practical problem-solving
+* Frontend development skills
+* Clean UI/UX design
+* Ability to build interactive applications
 
-It’s a strong example of moving beyond basic Python into real application development.
+It’s a strong step beyond basic projects and demonstrates practical, job-ready skills.
 
 ---
 
